@@ -1,0 +1,104 @@
+2025-11-02 23:46:18,867 - INFO - Starting application...
+2025-11-02 23:46:18,868 - INFO - Python version: 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]
+2025-11-02 23:46:18,868 - INFO - Current directory: C:\ebook_search_project
+2025-11-02 23:46:18,868 - INFO - Checking directories: books=True, indexdir=True
+2025-11-02 23:46:18,885 - INFO - Existing index found. Ready to serve.
+2025-11-02 23:46:18,885 - INFO - Attempting to start Flask server...
+2025-11-02 23:46:18,918 - WARNING -  * Debugger is active!
+2025-11-02 23:46:19,130 - INFO -  * Debugger PIN: 899-903-801
+2025-11-02 23:46:28,666 - INFO - 127.0.0.1 - - [02/Nov/2025 23:46:28] "GET / HTTP/1.1" 200 -
+2025-11-02 23:46:28,977 - INFO - 127.0.0.1 - - [02/Nov/2025 23:46:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:46:30,586 - INFO - 127.0.0.1 - - [02/Nov/2025 23:46:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-02 23:46:55,722 - INFO - 127.0.0.1 - - [02/Nov/2025 23:46:55] "GET /details/Aptitude%20Test%20For%20B.Sc.IT_CS_%20BCA%20September%202025.pdf HTTP/1.1" 200 -
+2025-11-02 23:46:55,794 - INFO - 127.0.0.1 - - [02/Nov/2025 23:46:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:46:57,682 - INFO - 127.0.0.1 - - [02/Nov/2025 23:46:57] "GET /books/Aptitude%20Test%20For%20B.Sc.IT_CS_%20BCA%20September%202025.pdf HTTP/1.1" 200 -
+2025-11-02 23:47:04,668 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:04] "GET /download/Aptitude%20Test%20For%20B.Sc.IT_CS_%20BCA%20September%202025.pdf HTTP/1.1" 200 -
+2025-11-02 23:47:08,928 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:08] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:47:08,999 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:47:12,956 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:12] "[36mGET /books/atomic-habits.pdf HTTP/1.1[0m" 304 -
+2025-11-02 23:47:34,381 - INFO - Successfully deleted file: books\atomic-habits.pdf
+2025-11-02 23:47:34,866 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:34] "[32mPOST /delete/atomic-habits.pdf HTTP/1.1[0m" 302 -
+2025-11-02 23:47:34,879 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:34] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:47:34,944 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:47:37,063 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:37] "GET /upload HTTP/1.1" 200 -
+2025-11-02 23:47:37,124 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:47:48,348 - INFO - Upload attempt started.
+2025-11-02 23:47:48,359 - INFO - Received file: Efficient Search in Large eBook Libraries.pdf
+2025-11-02 23:47:48,360 - INFO - Target filepath: books\Efficient Search in Large eBook Libraries.pdf
+2025-11-02 23:47:48,363 - INFO - File saved successfully: books\Efficient Search in Large eBook Libraries.pdf
+2025-11-02 23:47:48,555 - INFO - Extracted content length: 3056
+2025-11-02 23:47:48,559 - INFO - Indexed document: Efficient Search in Large eBook Libraries.pdf
+2025-11-02 23:47:48,656 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:48] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-11-02 23:47:48,663 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:48] "GET /upload HTTP/1.1" 200 -
+2025-11-02 23:47:48,723 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:47:50,849 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:50] "GET /search HTTP/1.1" 200 -
+2025-11-02 23:47:50,906 - INFO - 127.0.0.1 - - [02/Nov/2025 23:47:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:48:01,506 - INFO - 127.0.0.1 - - [02/Nov/2025 23:48:01] "POST /search HTTP/1.1" 200 -
+2025-11-02 23:48:01,555 - INFO - 127.0.0.1 - - [02/Nov/2025 23:48:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:49:07,843 - WARNING - No text extracted from books\BCCA II SEM.pdf. Possibly image-based PDF.
+2025-11-02 23:49:20,494 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:20] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:49:20,559 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:49:25,129 - INFO - Successfully deleted file: books\SD-1-ASSIGNMENT COVERPAGE.docx.pdf
+2025-11-02 23:49:25,331 - ERROR - Delete error for SD-1-ASSIGNMENT COVERPAGE.docx.pdf: 
+2025-11-02 23:49:25,332 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:25] "[32mPOST /delete/SD-1-ASSIGNMENT%20COVERPAGE.docx.pdf HTTP/1.1[0m" 302 -
+2025-11-02 23:49:25,495 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:25] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:49:25,683 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:49:33,012 - INFO - Successfully deleted file: books\Progresss Report 1 Smart Parking.pdf
+2025-11-02 23:49:33,236 - ERROR - Delete error for Progresss Report 1 Smart Parking.pdf: 
+2025-11-02 23:49:33,237 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:33] "[32mPOST /delete/Progresss%20Report%201%20Smart%20Parking.pdf HTTP/1.1[0m" 302 -
+2025-11-02 23:49:33,324 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:33] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:49:33,515 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:49:43,966 - INFO - Successfully deleted file: books\BCCA II SEM.pdf
+2025-11-02 23:49:44,068 - ERROR - Delete error for BCCA II SEM.pdf: 
+2025-11-02 23:49:44,068 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:44] "[32mPOST /delete/BCCA%20II%20SEM.pdf HTTP/1.1[0m" 302 -
+2025-11-02 23:49:44,217 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:44] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:49:44,348 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:49:46,263 - INFO - Indexed 7 books.
+2025-11-02 23:49:51,957 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:51] "[32mGET /index_books HTTP/1.1[0m" 302 -
+2025-11-02 23:49:56,574 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:56] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:49:56,630 - INFO - 127.0.0.1 - - [02/Nov/2025 23:49:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:50:00,794 - INFO - Successfully deleted file: books\Aptitude Test For B.Sc.IT_CS_ BCA September 2025.pdf
+2025-11-02 23:50:00,841 - INFO - 127.0.0.1 - - [02/Nov/2025 23:50:00] "[32mPOST /delete/Aptitude%20Test%20For%20B.Sc.IT_CS_%20BCA%20September%202025.pdf HTTP/1.1[0m" 302 -
+2025-11-02 23:50:00,852 - INFO - 127.0.0.1 - - [02/Nov/2025 23:50:00] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:50:00,904 - INFO - 127.0.0.1 - - [02/Nov/2025 23:50:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:50:08,687 - INFO - Successfully deleted file: books\constitution of India English.pdf
+2025-11-02 23:50:08,730 - INFO - 127.0.0.1 - - [02/Nov/2025 23:50:08] "[32mPOST /delete/constitution%20of%20India%20English.pdf HTTP/1.1[0m" 302 -
+2025-11-02 23:50:08,739 - INFO - 127.0.0.1 - - [02/Nov/2025 23:50:08] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:50:08,796 - INFO - 127.0.0.1 - - [02/Nov/2025 23:50:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:51:02,046 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:02] "GET /upload HTTP/1.1" 200 -
+2025-11-02 23:51:02,110 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:51:02,974 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:02] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:51:03,032 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:51:09,104 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:09] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:51:09,168 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:51:12,875 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:12] "GET /details/Efficient%20Search%20in%20Large%20eBook%20Libraries.pdf HTTP/1.1" 200 -
+2025-11-02 23:51:12,928 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:51:14,226 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:14] "GET /books/Efficient%20Search%20in%20Large%20eBook%20Libraries.pdf HTTP/1.1" 200 -
+2025-11-02 23:51:22,567 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:22] "GET /download/Efficient%20Search%20in%20Large%20eBook%20Libraries.pdf HTTP/1.1" 200 -
+2025-11-02 23:51:30,450 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:30] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:51:30,507 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:51:34,478 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:34] "[36mGET /books/Efficient%20Search%20in%20Large%20eBook%20Libraries.pdf HTTP/1.1[0m" 304 -
+2025-11-02 23:51:41,460 - INFO - Successfully deleted file: books\Efficient Search in Large eBook Libraries.pdf
+2025-11-02 23:51:41,496 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:41] "[32mPOST /delete/Efficient%20Search%20in%20Large%20eBook%20Libraries.pdf HTTP/1.1[0m" 302 -
+2025-11-02 23:51:41,507 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:41] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:51:41,569 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:51:43,329 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:43] "GET /upload HTTP/1.1" 200 -
+2025-11-02 23:51:43,389 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:51:53,710 - INFO - Upload attempt started.
+2025-11-02 23:51:53,721 - INFO - Received file: Efficient Search in Large eBook Libraries.pdf
+2025-11-02 23:51:53,721 - INFO - Target filepath: books\Efficient Search in Large eBook Libraries.pdf
+2025-11-02 23:51:53,724 - INFO - File saved successfully: books\Efficient Search in Large eBook Libraries.pdf
+2025-11-02 23:51:53,925 - INFO - Extracted content length: 3056
+2025-11-02 23:51:53,930 - INFO - Indexed document: Efficient Search in Large eBook Libraries.pdf
+2025-11-02 23:51:54,023 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:54] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-11-02 23:51:54,031 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:54] "GET /upload HTTP/1.1" 200 -
+2025-11-02 23:51:54,092 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:51:55,671 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:55] "GET /search HTTP/1.1" 200 -
+2025-11-02 23:51:55,731 - INFO - 127.0.0.1 - - [02/Nov/2025 23:51:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:52:00,893 - INFO - 127.0.0.1 - - [02/Nov/2025 23:52:00] "POST /search HTTP/1.1" 200 -
+2025-11-02 23:52:00,946 - INFO - 127.0.0.1 - - [02/Nov/2025 23:52:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:52:06,796 - INFO - 127.0.0.1 - - [02/Nov/2025 23:52:06] "GET /books/Efficient%20Search%20in%20Large%20eBook%20Libraries.pdf HTTP/1.1" 200 -
+2025-11-02 23:52:14,969 - INFO - 127.0.0.1 - - [02/Nov/2025 23:52:14] "GET /home HTTP/1.1" 200 -
+2025-11-02 23:52:15,038 - INFO - 127.0.0.1 - - [02/Nov/2025 23:52:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-02 23:52:17,678 - INFO - 127.0.0.1 - - [02/Nov/2025 23:52:17] "GET /upload HTTP/1.1" 200 -
+2025-11-02 23:52:17,742 - INFO - 127.0.0.1 - - [02/Nov/2025 23:52:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
