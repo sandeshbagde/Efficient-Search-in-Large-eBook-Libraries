@@ -1,0 +1,96 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.bg-gradient {
+    background: linear-gradient(90deg, #6a0dad, #2a0a6c); /* New purple to indigo gradient */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #1f1c1c !important;
+}
+
+.nav-link {
+    color: #420303 !important;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #3e13b4 !important; /* Gold accent on hover/active */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card-header {
+    background: linear-gradient(90deg, #6a0dad, #2a0a6c); /* Matching navbar gradient */
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: #6a0dad; /* Matching navbar start color */
+    border-color: #2a0a6c; /* Matching navbar end color */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #2a0a6c; /* Darker shade for hover */
+    border-color: #1e0750; /* Even darker for border */
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #c82333;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #218838;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #138496;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
